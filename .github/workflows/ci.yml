@@ -41,6 +41,5 @@ jobs:
           context: .
           push: true  
           tags: |
-            tags: |
             ghcr.io/ciruuss/tp-devops:latest
             ghcr.io/ciruuss/tp-devops:${{ github.sha }}
